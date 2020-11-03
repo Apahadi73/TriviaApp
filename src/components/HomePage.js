@@ -3,6 +3,7 @@ import { Button, Col, Container, Modal, Row } from 'react-bootstrap';
 import Quizcard from './UIElements/Quizcard';
 import GameStatus from './UIElements/GameStatus';
 import axios from 'axios';
+import Joke from './UIElements/Joke';
 
 const HomePage = () => {
 	const baseUrl = 'https://opentdb.com/api.php?type=multiple&';
@@ -106,6 +107,7 @@ const HomePage = () => {
 								totalScore={totalScore}
 								startNewGame={setnewGame}
 							/>
+							<Joke />
 						</Col>
 					</Row>
 				)}

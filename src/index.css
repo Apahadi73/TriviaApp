@@ -1,5 +1,5 @@
 main {
-  min-height: 92vh;
+  min-height: 90vh;
 }
 
 h1 {
@@ -28,5 +28,4 @@ h4 {
 
 .homepage{
   margin: 3rem auto !important;
-
 }
