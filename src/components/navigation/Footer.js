@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer style={{ backgroundColor: '#2C3E50', color: 'white' }}>
 			<Container>
 				<Row>
-					<Col className="text-center">Copyright &copy; Butik</Col>
+					<Col className="text-center">Copyright &copy; TRIVIAQUIZ</Col>
 				</Row>
 			</Container>
 		</footer>
